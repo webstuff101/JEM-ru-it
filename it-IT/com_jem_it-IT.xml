@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<extension type="file" version="4.0" method="upgrade">
+ 
+        <!-- Please use a unique name to make uninstall to work. Should be identical to your manifest filename. -->
+        <name>com_jem_it-IT</name>
+		<tag>it-IT</tag>
+        <author>Italian Translation Team</author>
+        <creationDate>18 August 2026</creationDate>
+        <copyright>(C) 2005-2026 Christopher Lukes / JEM Translation Team</copyright>
+        <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+        <authorEmail>info@joomlaeventmanager.net</authorEmail>
+        <authorUrl>http://www.joomlaeventmanager.net</authorUrl>
+        <version>5.0.0</version>
+        <description>This is the it-IT language pack for JEM - an Event Manager for Joomla!
+						For assistance in translations please visit the Transifex Project page of JEM at https://explore.transifex.com/jemproject/JEM-4/
+		</description>
+ 
+        <!-- Fileset definition -->
+        	<fileset>
+
+		<!-- back-end -->
+		<files folder="admin_it-IT" target="administrator/components/com_jem/language/it-IT">
+				<filename>com_jem.ini</filename>
+				<filename>com_jem.sys.ini</filename>
+		</files>
+		
+		<!-- front-end -->
+		<files folder="site_it-IT" target="components/com_jem/language/it-IT">
+				<filename>com_jem.ini</filename>
+		</files>
+				
+		<!-- modules -->
+		<files folder="site_it-IT" target="modules/mod_jem/language/it-IT">
+				<filename>mod_jem.ini</filename>
+				<filename>mod_jem.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="modules/mod_jem_wide/language/it-IT">
+				<filename>mod_jem_wide.ini</filename>
+				<filename>mod_jem_wide.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="modules/mod_jem_cal/language/it-IT">
+				<filename>mod_jem_cal.ini</filename>
+				<filename>mod_jem_cal.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="modules/mod_jem_jubilee/language/it-IT">
+				<filename>mod_jem_jubilee.ini</filename>
+				<filename>mod_jem_jubilee.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="modules/mod_jem_teaser/language/it-IT">
+				<filename>mod_jem_teaser.ini</filename>
+				<filename>mod_jem_teaser.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="modules/mod_jem_banner/language/it-IT">
+				<filename>mod_jem_banner.ini</filename>
+				<filename>mod_jem_banner.sys.ini</filename>
+		</files>
+				
+		<files folder="site_it-IT" target="modules/mod_jem_map/language/it-IT">
+				<filename>mod_jem_map.ini</filename>
+				<filename>mod_jem_map.sys.ini</filename>
+		</files>		
+				
+		<!-- plugins -->
+		
+		<files folder="site_it-IT" target="plugins/finder/jem/language/it-IT">
+				<filename>plg_finder_jem.ini</filename>
+				<filename>plg_finder_jem.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="plugins/content/jem/language/it-IT">
+				<filename>plg_content_jem.ini</filename>
+				<filename>plg_content_jem.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="plugins/content/jemlistevents/language/it-IT">
+				<filename>plg_content_jemlistevents.ini</filename>
+				<filename>plg_content_jemlistevents.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="plugins/jem/comments/language/it-IT">
+				<filename>plg_jem_comments.ini</filename>
+				<filename>plg_jem_comments.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="plugins/jem/mailer/language/it-IT">
+				<filename>plg_jem_mailer.ini</filename>
+				<filename>plg_jem_mailer.sys.ini</filename>
+		</files>
+		
+		<files folder="site_it-IT" target="plugins/search/jem/language/it-IT">
+				<filename>plg_search_jem.ini</filename>
+				<filename>plg_search_jem.sys.ini</filename>
+		</files>
+				
+		<files folder="site_it-IT" target="plugins/content/jemembed/language/it-IT">
+				<filename>plg_content_jemembed.ini</filename>
+				<filename>plg_content_jemembed.sys.ini</filename>
+		</files>
+		
+	</fileset>
+</extension>
